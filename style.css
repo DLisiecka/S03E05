@@ -1,0 +1,12 @@
+body {
+    background: #ffcc99;
+    color: #cc3333;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+
+textarea {
+    width: 800px;
+    height: 200px;
+}

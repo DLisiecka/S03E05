@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Konwerter Markdown do HTML</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+
+    <label>Wybierz plik w formacie .md i konwertuj go do HTML</label>
+
+    <div>
+         <input id="convert" type="file"/>    
+    </div>
+
+    <div>
+        <textarea class="form-control" placeholder="Skonwertowany kod"></textarea>
+        <br/>
+        <button id="clickBtn" type="button">Kopiuj kod HTML</button>
+    </div>
+
+
+    
+<script src="jquery-3.1.1.js"></script>
+<script src="showdown.js"></script>
+<script src="scripts.js"></script>
+</body>
+</html>
